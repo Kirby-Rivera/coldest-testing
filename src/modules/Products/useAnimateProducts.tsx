@@ -15,8 +15,6 @@ function useAnimateProducts() {
 
   const totalProjectCount = 5;
 
-  console.log(totalProjectCount);
-
   useGSAP(() => {
     const spotlightSection = spotlightRef.current;
     const projectIndex = projectIndexRef.current;
