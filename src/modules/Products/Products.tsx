@@ -39,11 +39,11 @@ function Products() {
         </div>
         <div ref={projectNamesContainerRef} className={styles["project-names"]}>
           {[
-            "Release 1",
-            "Release 2",
-            "Release 3",
-            "Release 4",
-            "Release 6",
+            "Script Glitter",
+            "Pink Salmon Arch",
+            "Raw Denim",
+            `"I'M TOO COLD"`,
+            "BLUEFLAMES",
           ].map((name, index) => (
             <p
               key={index}
