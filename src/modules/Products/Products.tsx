@@ -1,6 +1,7 @@
 import { imageItems } from "@/constants/hero";
 import styles from "./Products.module.scss";
 import useAnimateProducts from "./useAnimateProducts";
+import Image from "next/image";
 
 function Products() {
   const {
@@ -33,7 +34,7 @@ function Products() {
               }}
               className={styles["project-img"]}
             >
-              <img src={img.src} alt={`${index + 1}`} />
+              <Image src={img.src} alt={`${index + 1}`} />
             </div>
           ))}
         </div>
